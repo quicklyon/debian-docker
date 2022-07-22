@@ -4,7 +4,7 @@
 
 ## Image Tags
 
-* [`latest`, `11`, `11-r1`](https://github.com/quicklyon/debian-docker/blob/11-r1/Dockerfile)
+* [`latest`, `11`, `11-r2`](https://github.com/quicklyon/debian-docker/blob/11-r2/Dockerfile)
 
 ## TL;DR
 

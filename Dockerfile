@@ -49,7 +49,7 @@ RUN \
 	--no-install-recommends \
   --no-install-suggests \
   -y \
-  apt-transport-https ca-certificates procps curl wget net-tools jq nano tzdata && \
+  apt-transport-https ca-certificates procps curl wget net-tools jq nano tzdata zip unzip s6 pwgen cron && \
  echo "**** cleanup ****" && \
  apt-get autoremove && \
  apt-get clean && \
