@@ -59,4 +59,4 @@ RUN \
 	/var/tmp/*
 
 # copy sources
-COPY sources.list /etc/apt/
+# COPY sources.list /etc/apt/
