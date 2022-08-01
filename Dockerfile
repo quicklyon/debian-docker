@@ -10,6 +10,9 @@ LANG="en_US.UTF-8" \
 TERM="xterm" \
 TZ=Asia/Shanghai
 
+# copy sources
+COPY sources.list /etc/apt/
+
 RUN \
  echo "**** Ripped from Debian Docker Logic ****" && \
  set -xe && \
@@ -57,6 +60,3 @@ RUN \
 	/tmp/* \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
-
-# copy sources
-# COPY sources.list /etc/apt/
