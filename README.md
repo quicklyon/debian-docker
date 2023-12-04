@@ -9,7 +9,8 @@
 
 ## Image Tags
 
-* [`latest`, `11`, `11-r8`](https://github.com/quicklyon/debian-docker/blob/11-r7/Dockerfile)
+* [`latest`, `12`, `12-r0`](https://github.com/quicklyon/debian-docker/blob/12-r0/Dockerfile)
+* [`11`, `11-r8`](https://github.com/quicklyon/debian-docker/blob/11-r8/Dockerfile)
 
 ## TL;DR
 

@@ -33,7 +33,7 @@ jobs:
         push: true
         tags: |
           easysoft/debian
-          easysoft/debian:11
+          easysoft/debian:12
           easysoft/debian:${{ steps.prepare.outputs.tag_name }}
     - name: Update repo description
       uses: peter-evans/dockerhub-description@v3
