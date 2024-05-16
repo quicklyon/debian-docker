@@ -1,5 +1,7 @@
 name: build
 on:
+  schedule:
+    - cron: '0 0 * * *'
   push:
     tags:
     - '*'
@@ -35,6 +37,9 @@ jobs:
           easysoft/debian
           easysoft/debian:12
           easysoft/debian:${{ steps.prepare.outputs.tag_name }}
+          ttl.sh/easysoft/debian
+          ttl.sh/easysoft/debian:12
+          ttl.sh/easysoft/debian:${{ steps.prepare.outputs.tag_name }}
     - name: Update repo description
       uses: peter-evans/dockerhub-description@v3
       with:
